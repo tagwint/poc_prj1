@@ -1,0 +1,9 @@
+---
+- name: Installation of smth
+  debug: 
+    msg: "Being installed"
+
+- name: Debug vars from a hook 
+  debug:
+    msg: "{{ 'Target host would be:' +hostvars['htarget'].ansible_host  }}"
+

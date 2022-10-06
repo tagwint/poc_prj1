@@ -1,0 +1,13 @@
+---
+- name: Even more
+  debug: 
+    msg: "Doing even more"
+
+- name: Debug play name
+  debug: 
+    msg: "{{ ansible_play_name }}"
+
+- name: Debug Stage
+  debug: 
+    msg: "{{ stage }}"
+  

@@ -1,0 +1,4 @@
+---
+- name: Set up things
+  debug: 
+    msg: "Set up a bunch of things"

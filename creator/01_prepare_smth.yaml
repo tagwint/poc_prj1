@@ -1,0 +1,9 @@
+---
+- name: Preparation
+  debug: 
+    msg: "Being prepared"
+
+- name: Debug vars from a hook 
+  debug:
+    msg: "{{ 'Target host would be:' +hostvars['htarget'].ansible_host  }}"
+
