@@ -1,2 +1,2 @@
 # poc_prj1
-POC hook1
+POC Hook files for PRJ1
