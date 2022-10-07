@@ -5,5 +5,5 @@
 
 - name: Debug vars from a hook 
   debug:
-    msg: "{{ 'Target host would be:' +hostvars['htarget'].ansible_host  }}"
+    msg: "{{ 'builder host would be:' +hostvars['hbuilder'].ansible_host  }}"
 
